@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'minhaFonte';
+    src: url('font/Horrorshow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+body {
+    font-family: 'minhaFonte', sans-serif;
+    background-image: url('https://i.pinimg.com/originals/f1/82/97/f18297032f55fcf53ae507d6b48b61f1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+}
+
+header {
+    padding: 10px 20px; /* Reduz a altura */
+    background-color: #060200;
+    justify-content: space-between;
+}
+
+header img {
+    width: 180px; /* Ajusta a largura para caber melhor */
+    height: auto;
+}
+
+
+main {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com transparência */
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff; /* Texto branco para contraste */
+    
+}
+
+button {
+    background-color: #e63946; /* Um tom mais vibrante de vermelho */
+    color: #fff; /* Texto em branco para melhor contraste */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+}
+
+/* Efeito de hover */
+button:hover {
+    transform: scale(1.1); /* Aumenta levemente o botão ao passar o mouse */
+    background-color: #d62828; /* Tom mais escuro para efeito de hover */
+}
+
+
+img{
+    margin-bottom: 30px;
+}
+nav a {
+    color: #fff; /* Branco para melhor contraste */
+    font-size: 1.2em; /* Aumenta o tamanho da fonte */
+    margin: 0 10px; /* Espaçamento horizontal */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline; /* Efeito de hover */
+    color: #e63946; /* Cor de destaque no hover */
+}
